@@ -1,0 +1,30 @@
+{
+    "name": "ls_metafile_json",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureDataLakeStorage1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "metadata.json",
+                "folderPath": "metafile",
+                "fileSystem": "covid19"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "relativeUrl": {
+                    "type": "string"
+                },
+                "sinkFileName": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+[{"relativeUrl": "cases_deaths.csv","sinkFileName": "Cases_deaths.csv"},
+{"relativeUrl": "hospital_admissions.csv","sinkFileName": "hospital_admissions.csv"},
+{"relativeUrl": "testing.csv","sinkFileName": "Testing.csv"}]

@@ -1,0 +1,12 @@
+{
+    "name": "http_linked_service",
+    "properties": {
+        "annotations": [],
+        "type": "HttpServer",
+        "typeProperties": {
+            "url": "https://raw.githubusercontent.com/PushpakVootla21/Datasets/refs/heads/main/Files/",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Anonymous"
+        }
+    }
+}
